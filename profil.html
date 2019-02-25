@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>212 Mart Barang</title>
+		<style>
+			.wrapper  {
+				max-width: 1200px;
+				box-sizing: border-box;
+				margin: auto;
+			}
+			#header {
+				background-color: #f78c8c;
+				padding: 25px;
+				max-height: 100px;
+				box-sizing: border-box;
+			}
+			#header ul li{
+				display: inline-block;
+				padding-left: 15px;
+			}
+			#header img {
+				display: inline-block;
+			}
+			#header ul li a{
+				color: white;
+				text-decoration: none;
+				display: inline-block;
+				font-family: sans;
+				padding-left: 3px;
+				font-size: 18px;
+				transition: font-size 1s, color 1s, text-shadow 1s;
+			}
+			#header ul li a:hover {
+				color: #bd0202;
+				font-size: 20px;
+				text-shadow: 2px 2px #c9cfd8;
+			}
+			#header ul li a.active {
+				color: #bd0202;
+			}
+			#background {
+				background-image: url("asd.jpg");
+    			background-size: cover;
+				background-repeat: no-repeat;
+			}
+			#body {
+				font-family: sans;
+				color: #4f3636;
+				background-color: white;
+				padding: 10px;
+			}
+			#body .text {
+				font-size: 15px;
+			}
+			#body a{
+				color: #bd0202;
+			}
+			#body .prof{
+				display: inline-block;
+				
+			}
+			#body .prof li{
+				display: block;
+			}
+		</style>
+		</head>
+		<body id="background">
+		<div class="wrapper">
+			<div id="header">
+				<ul style="list-style-type:none;">
+					<li><a href="Index-Home.php">Home</a>
+					<li><a href="Index-Barang.php">Stok Barang</a>
+					<li><a href="Index-Member.php">Kartu Member</a>
+					<li><a href="profil.html" class="active">Profil</a>
+				</ul>
+			</div>
+			<div id="body">
+			<center><h1>Profil</h1></center>
+				<div class="gabung">
+				<img class="gambar" src="saya.jpg" width="150px">
+				<ul class="prof">
+					<li><a><b>Nama:</b> Ammar Fakhri</a></li>
+					<li><a><b>Tanggal Lahir:</b> 28-05-1998</a></li>
+					<li><a><b>Tempat Lahir:</b> Jakarta</a></li>
+					<li><a><b>Alamat:</b> Pondok Bambu 2 Blok C23</a></li>
+					<li><a><b>Ahli:</b> <li><a>- Game Programing</a></li><li><a>- Animation</a></li><li><a>- Menggambar</a></li></a></li>
+				</div>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>
